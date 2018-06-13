@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>10.0.0</ProductVersion>
+    <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{E4130F8D-D301-4E0C-916D-489C4A23C9B1}</ProjectGuid>
     <OutputType>Library</OutputType>
@@ -35,24 +35,12 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="src\Group.cs" />
     <Compile Include="src\TiledCore.cs" />
     <Compile Include="src\Map.cs" />
     <Compile Include="src\Layer.cs" />
     <Compile Include="src\Tileset.cs" />
     <Compile Include="src\AssemblyInfo.cs" />
-    <Compile Include="src\zlib\CRC32.cs" />
-    <Compile Include="src\zlib\Deflate.cs" />
-    <Compile Include="src\zlib\DeflateStream.cs" />
-    <Compile Include="src\zlib\GZipStream.cs" />
-    <Compile Include="src\zlib\InfTree.cs" />
-    <Compile Include="src\zlib\Inflate.cs" />
-    <Compile Include="src\zlib\ParallelDeflateOutputStream.cs" />
-    <Compile Include="src\zlib\Tree.cs" />
-    <Compile Include="src\zlib\Zlib.cs" />
-    <Compile Include="src\zlib\ZlibBaseStream.cs" />
-    <Compile Include="src\zlib\ZlibCodec.cs" />
-    <Compile Include="src\zlib\ZlibConstants.cs" />
-    <Compile Include="src\zlib\ZlibStream.cs" />
     <Compile Include="src\ObjectGroup.cs" />
     <Compile Include="src\ImageLayer.cs" />
   </ItemGroup>
